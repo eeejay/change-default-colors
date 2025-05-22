@@ -1,0 +1,17 @@
+{
+
+  "description": "Change default browser colors",
+  "manifest_version": 2,
+  "name": "Default Color Changer",
+  "version": "1.0",
+  "homepage_url": "https://github.com/eeejay/change-default-colors",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ]
+}
